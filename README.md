@@ -26,3 +26,9 @@ This system automates and streamlines the process.
     Inheritance – Vehicle → Car, Bike
     Polymorphism – Common methods for multiple vehicle types
     Abstraction – Generic methods like pay() and reserveSpot()
+
+**Tools Used
+    Java – Core programming language
+    OOP Concepts – System design principles
+    IDE – IntelliJ / Eclipse / VS Code 
+    Git & GitHub – Version control
