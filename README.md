@@ -34,7 +34,7 @@ This system automates and streamlines the process.
     Git & GitHub – Version control
 
 ** How to Run
-1. Clone the repo:
-git clone https://github.com/your-username/ParkingManagementSystem.git
-2. Open in IntelliJ / Eclipse / VS Code
-3. Run Main.java 
+    1. Clone the repo:
+          git clone https://github.com/your-username/ParkingManagementSystem.git
+    2. Open in IntelliJ / Eclipse / VS Code
+    3. Run Main.java 
