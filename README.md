@@ -21,3 +21,8 @@ This system automates and streamlines the process.
     Simple payment system
     Admin controls for spot management
 
+** OOP Concepts
+    Encapsulation – Hide spot, ticket & payment data in classes
+    Inheritance – Vehicle → Car, Bike
+    Polymorphism – Common methods for multiple vehicle types
+    Abstraction – Generic methods like pay() and reserveSpot()
