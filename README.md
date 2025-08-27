@@ -1,42 +1,52 @@
-# Parking-Mansgement-System
-A Java-based application to automate parking space management — from allocating spots to generating tickets and handling payments, reducing manual effort and errors.
+**🚗 Parking Management System**
 
-**Problem It Solves
-Manual parking faces:
-    Hard to track free spots
-    Peak hour confusion
-    Delays in tickets & payments
-This system automates and streamlines the process.
+**📌 Project Overview**
 
-**Target Users
-    Shopping malls
-    Office buildings
-    Colleges & universities
-    Public parking lots
+The Parking Management System is a Java-based project designed to automate the process of managing parking spaces. It helps allocate spots efficiently, generate tickets, and handle payments — reducing manual errors and saving time.
 
-**Features
-    Auto-allocate & track parking spots
-    Generate tickets for vehicles
-    Support for Cars & Bikes
-    Simple payment system
-    Admin controls for spot management
+**🎯 Problem Statement**
 
-** OOP Concepts
-    Encapsulation – Hide spot, ticket & payment data in classes
-    Inheritance – Vehicle → Car, Bike
-    Polymorphism – Common methods for multiple vehicle types
-    Abstraction – Generic methods like pay() and reserveSpot()
+Manual parking systems often face challenges such as:
+Difficulty in tracking available spots
+Confusion during peak hours
+Time delays in issuing tickets and payments
+This project solves these problems by providing an automated and structured approach.
 
-**Tools Used
-    Java – Core programming language
-    OOP Concepts – System design principles
-    IDE – IntelliJ / Eclipse / VS Code 
-    Git & GitHub – Version control
+**👥 Target Users**
 
-**UML diagram
+Shopping malls
+Office buildings
+Universities & colleges
+Public parking lots
 
-** How to Run
-    1. Clone the repo:
-          git clone https://github.com/your-username/ParkingManagementSystem.git
-    2. Open in IntelliJ / Eclipse / VS Code
-    3. Run Main.java 
+**🛠️ Features**
+
+Allocate and track parking spots
+Generate parking tickets for vehicles
+Support for multiple vehicle types (Car, Bike, etc.)
+Simple payment handling system
+Admin access to manage parking spots
+
+**🧑‍💻 OOP Concepts Used**
+
+Encapsulation: Data such as spot status, ticket details, and payment info are hidden inside classes.
+Inheritance: Vehicle is the parent class; Car and Bike are subclasses.
+Polymorphism: Same methods handle different types of vehicles.
+Abstraction: Generic methods like pay() and reserveSpot() are defined and specialized later.
+
+**📊 UML Diagrams**
+Class Diagram: Shows the main entities like ParkingLot, ParkingSpot, Vehicle, Ticket, and PaymentSystem.
+
+Use-Case Diagram: Shows interactions of Driver and Admin with the system.
+
+**Clone the repository**:
+
+git clone https://github.com/your-username/ParkingManagementSystem.git
+Open the project in any Java IDE (e.g., IntelliJ, Eclipse, VS Code).
+Run the Main.java file to start the system.
+
+**📌 Future Enhancements**
+
+Add real-time sensors for spot detection
+Mobile app integration
+Online reservations and payments
