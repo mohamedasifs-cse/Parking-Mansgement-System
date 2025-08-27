@@ -7,31 +7,35 @@ The Parking Management System is a Java-based project designed to automate the p
 **🎯 Problem Statement**
 
 Manual parking systems often face challenges such as:
-Difficulty in tracking available spots
-Confusion during peak hours
-Time delays in issuing tickets and payments
+
+Difficulty in tracking available spots.
+Confusion during peak hours.
+Time delays in issuing tickets and payments.
 This project solves these problems by providing an automated and structured approach.
 
 **👥 Target Users**
 
-Shopping malls
-Office buildings
-Universities & colleges
-Public parking lots
+Shopping malls,
+Office buildings,
+Universities & colleges,
+Public parking lots.
 
 **🛠️ Features**
 
-Allocate and track parking spots
-Generate parking tickets for vehicles
-Support for multiple vehicle types (Car, Bike, etc.)
-Simple payment handling system
-Admin access to manage parking spots
+Allocate and track parking spots.
+Generate parking tickets for vehicles.
+Support for multiple vehicle types (Car, Bike, etc.).
+Simple payment handling system.
+Admin access to manage parking spots.
 
 **🧑‍💻 OOP Concepts Used**
 
 Encapsulation: Data such as spot status, ticket details, and payment info are hidden inside classes.
+
 Inheritance: Vehicle is the parent class; Car and Bike are subclasses.
+
 Polymorphism: Same methods handle different types of vehicles.
+
 Abstraction: Generic methods like pay() and reserveSpot() are defined and specialized later.
 
 **📊 UML Diagrams**
