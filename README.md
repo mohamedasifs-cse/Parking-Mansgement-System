@@ -33,6 +33,8 @@ This system automates and streamlines the process.
     IDE – IntelliJ / Eclipse / VS Code 
     Git & GitHub – Version control
 
+**UML diagram
+
 ** How to Run
     1. Clone the repo:
           git clone https://github.com/your-username/ParkingManagementSystem.git
