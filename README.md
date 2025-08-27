@@ -36,7 +36,7 @@ Abstraction: Generic methods like pay() and reserveSpot() are defined and specia
 
 **📊 UML Diagrams**
 Class Diagram: Shows the main entities like ParkingLot, ParkingSpot, Vehicle, Ticket, and PaymentSystem.
-
+![image alt](https://github.com/mohamedasifs-cse/Parking-Mansgement-System/blob/66f90e47ef89cdd3640e4f17c8493a154580c196/Screenshot%202025-08-26%20134545.png)
 Use-Case Diagram: Shows interactions of Driver and Admin with the system.
 
 **Clone the repository**:
