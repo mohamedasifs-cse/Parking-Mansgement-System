@@ -51,6 +51,26 @@ Class Diagram: Shows the main entities like ParkingLot, ParkingSpot, Vehicle, Ti
 Use-Case Diagram: Shows interactions of Driver and Admin with the system.
 ![image alt](https://github.com/mohamedasifs-cse/Parking-Mansgement-System/blob/96a86fca95d112db9ef7ee5a5aedd71eebd63fb8/Screenshot%202025-08-26%20134832.png)
 
+**🖥️ Languages & Technologies**
+
+Frontend
+
+HTML and CSS -> for creating login pages and user interface. 
+
+Backend
+
+Java → For implementing OOP concepts and business logic
+
+Database
+
+MySQL / SQLite → For storing user details, parking slots, tickets, and payment records
+
+Other Tools
+
+GitHub → For version control and project hosting
+
+IDE (VS Code) → For development
+
 **Clone the repository**:
 
 git clone https://github.com/your-username/ParkingManagementSystem.git
