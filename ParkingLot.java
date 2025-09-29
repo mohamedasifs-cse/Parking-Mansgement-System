@@ -17,7 +17,7 @@ class ParkingLot {
             case "car": return carSlots;
             case "bike": return bikeSlots;
             case "truck": return truckSlots;
-            default: System.out.println("❌ Invalid vehicle type!"); return null;
+            default: System.out.println("Invalid vehicle type!"); return null;
         }
     }
 
@@ -37,13 +37,13 @@ class ParkingLot {
         v.vehicleNumber = v.vehicleNumber.trim();
         v.vehicleType = v.vehicleType.trim();
         if (isDuplicate(v.vehicleNumber)) {
-            System.out.println("❌ " + v.vehicleNumber + " already parked!");
+            System.out.println(" " + v.vehicleNumber + " already parked!");
             return;
         }
         ParkingSlot[] slots = getSlots(v.vehicleType);
         if (slots == null) return;
         for (ParkingSlot s : slots) {
-            if (s.isEmpty()) { s.park(v); System.out.println("✅ Parked " + v + " in Slot " + s.slotId); return; }
+            if (s.isEmpty()) { s.park(v); System.out.println(" Parked " + v + " in Slot " + s.slotId); return; }
         }
         System.out.println("❌ No free slots for " + v.vehicleType + "s!");
     }
@@ -52,13 +52,13 @@ class ParkingLot {
         num = num.trim();
         if (removeFromSlots(num, carSlots) || removeFromSlots(num, bikeSlots) || removeFromSlots(num, truckSlots))
             return;
-        System.out.println("❌ Vehicle not found!");
+        System.out.println(" Vehicle not found!");
     }
 
     private boolean removeFromSlots(String num, ParkingSlot[] slots) {
         for (ParkingSlot s : slots)
             if (!s.isEmpty() && s.parkedVehicle.vehicleNumber.trim().equalsIgnoreCase(num)) {
-                System.out.println("🚗 Removed " + s.parkedVehicle + " from Slot " + s.slotId);
+                System.out.println(" Removed " + s.parkedVehicle + " from Slot " + s.slotId);
                 s.remove(); return true;
             }
         return false;
