@@ -18,7 +18,7 @@ public class Main {
             try {
               choice = Integer.parseInt(input.trim());
             }
-            catch (NumberFormatException e) { System.out.println("❌ Invalid input! Enter a number."); continue; }
+            catch (NumberFormatException e) { System.out.println("Invalid input! Enter a number."); continue; }
 
             switch (choice) {
                 case 1:
@@ -30,9 +30,9 @@ public class Main {
                     System.out.print("Enter Vehicle Number: ");
                     String num = sc.nextLine().trim();
 
-                    // ✅ Duplicate check before creating Vehicle
+                    
                     if (lot.isDuplicate(num)) {
-                        System.out.println("❌ Vehicle number " + num + " is already parked!");
+                        System.out.println(" Vehicle number " + num + " is already parked!");
                         break;
                     }
 
@@ -58,7 +58,7 @@ public class Main {
                     break;
 
                 default:
-                    System.out.println("❌ Invalid choice! Select 1-4.");
+                    System.out.println(" Invalid choice! Select 1-4.");
             }
         } while (choice != 4);
 
